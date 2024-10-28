@@ -8,5 +8,9 @@
   },
   "keywords": [],
   "author": "Vashisht",
-  "license": "Chitkara"
+  "license": "Chitkara",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "express": "^4.21.1"
+  }
 }

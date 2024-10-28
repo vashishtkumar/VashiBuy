@@ -1,0 +1,12 @@
+{
+  "name": "vashibuy",
+  "version": "1.0.0",
+  "description": "ecommerce rest api",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "Vashisht",
+  "license": "Chitkara"
+}

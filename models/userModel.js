@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 
-const userSchema=new mongoose({
+const userSchema=new mongoose.Schema({
     name:{
         type:String,
         required:true,
@@ -16,7 +16,7 @@ const userSchema=new mongoose({
         required:true,
     },
     phone:{
-        type:number,
+        type:Number,
         required:true,
     },
     address:{
@@ -24,7 +24,7 @@ const userSchema=new mongoose({
         required:true,
     },
     role:{
-        type:number,
+        type:Number,
         default:0
     }
 },
